@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.s04tvng" name="S04.tv NG" version="0.5.0" provider-name="Philipp Rustemeier">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="plugin.video.youtube" version="5.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Play videos from S04.tv.</summary>
+    <description lang="en_gb">Play videos from S04.tv. Don't forget to set your user and password in the settings if you have an account.</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <summary lang="de_de">Videos von S04.tv anschauen.</summary>
+    <description lang="de_de">Videos von S04.tv anschauen. Nicht vergessen: Benutzer und Passwort in den Addon-Einstellungen setzen, um Videos für Mitglieder zu schauen.</description>
+    <disclaimer lang="de_de"></disclaimer>
+    <language>de_de</language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
